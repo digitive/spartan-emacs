@@ -23,7 +23,10 @@
                             ))
 
 (setq spartan-path-append '(
-                            ;; "~/Put/To/End/Of/PATH"
+                            "/usr/local/bin"
+                            "/usr/local/go/bin"
+                            "~/go/bin"
+                            "~/devenv/bin"
                             ))
 
 ;; Help out MacOS users to make dev env more like-linux
@@ -46,6 +49,7 @@
 (dolist (item spartan-path-append)
   (add-to-list 'exec-path item t))
 
+(add-to-list 'default-frame-alist '(font . "JetBrains Mono NL"))
 (setenv "PATH" (string-trim-right (string-join exec-path ":") ":$"))
 
 (provide 'spartan-environment)

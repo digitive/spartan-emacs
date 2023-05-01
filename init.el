@@ -9,34 +9,35 @@
                        spartan-environment
                        spartan-theme
 
-                       ;; spartan-elpa-melpa ; required by layers below
-                       ;; spartan-ido
-                       ;; spartan-flymake
+                       spartan-elpa-melpa ; required by layers below
+                       spartan-ido
+                       spartan-flymake
                        ;; spartan-projectile
-                       ;; spartan-evil
-                       ;; spartan-kill-ring
-                       ;; spartan-crux
-                       ;; spartan-webpaste
-                       ;; spartan-shell
+                       spartan-evil
+                       spartan-kill-ring
+                       spartan-crux
+                       spartan-webpaste
+                       spartan-shell
                        ;; spartan-emacs-nw
-                       ;; spartan-vterm
-                       ;; spartan-magit
-                       ;; spartan-eglot
-                       ;; spartan-lisp
+                       spartan-vterm
+                       spartan-magit
+                       spartan-eglot
+                       spartan-lisp
                        ;; spartan-c
-                       ;; spartan-python
-                       ;; spartan-terraform
+                       spartan-python
+                       spartan-terraform
                        ;; spartan-nix
-                       ;; spartan-nginx
+                       spartan-nginx
                        ;; spartan-systemd
-                       ;; spartan-json
-                       ;; spartan-yaml
-                       ;; spartan-xml
-                       ;; spartan-javascript
+                       spartan-json
+                       spartan-yaml
+                       spartan-xml
+                       spartan-javascript
                        ;; spartan-ruby
                        ;; spartan-rust
-                       ;; spartan-go
+                       spartan-go
                        ;; spartan-solidity
+                       spartan-custom
                        ))
 
 ;; spartan-layers
