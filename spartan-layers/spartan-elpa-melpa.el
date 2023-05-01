@@ -31,7 +31,7 @@
 (setq straight-use-package-by-default t)
 (straight-use-package 'use-package)
 (require 'use-package)
-(
+
 (package-initialize)
 
 (defun spartan-package-bootstrap ()

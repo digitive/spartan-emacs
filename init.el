@@ -7,9 +7,9 @@
                        spartan-better-defaults
                        spartan-binds-global
                        spartan-environment
-                       spartan-theme
-
                        spartan-elpa-melpa ; required by layers below
+
+                       spartan-my-theme
                        spartan-ido
                        spartan-flymake
                        ;; spartan-projectile

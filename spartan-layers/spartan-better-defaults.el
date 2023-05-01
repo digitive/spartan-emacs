@@ -5,7 +5,7 @@
 (set-default-coding-systems 'utf-8)
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
-
+(set-fringe-mode 10)        ; Give some breathing room
 (global-eldoc-mode 1) ; eglot uses this too
 
 (electric-pair-mode 1) ; auto parens in pairs
@@ -29,8 +29,7 @@
  tab-width 4 ; tab is 8 spaces
  fill-column 79 ; python friendly
 
-(set-fringe-mode 10)        ; Give some breathing room
-(global-hl-line-mode 1)
+;;(global-hl-line-mode 1)
 
  ;; better security
  gnutls-verify-error t
